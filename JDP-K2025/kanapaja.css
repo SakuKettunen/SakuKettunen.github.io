@@ -57,7 +57,7 @@ h1 {
 }
 
 main img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     border-radius: 20px;
     border: 4px solid #C32126;
@@ -66,9 +66,10 @@ main img {
 
 .cta-button {
     display: inline-block;
+    align-items: end;
     background-color: #C32126;
     color: white;
-    padding: 15px 30px;
+    padding: 15px;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
