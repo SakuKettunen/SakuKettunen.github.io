@@ -1,6 +1,7 @@
 
 body {
     margin: 0;
+
     font-family: Arial, sans-serif;
     background-color: #F4AC23; 
     color: #191009; 
@@ -34,6 +35,11 @@ nav ul li a {
     font-weight: bold;
 }
 
+nav ul li a.current {
+    background-color: #C32126; 
+    border-radius: 20px;
+    color: white;  
+}
 nav ul li a:hover {
     background-color: #C32126; 
     border-radius: 20px;
