@@ -64,6 +64,24 @@ main img {
     margin-top: 20px;
 }
 
+.cta-button {
+    display: inline-block;
+    background-color: #C32126;
+    color: white;
+    padding: 15px 30px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #C32126;  
+}
+
 h2 {
     font-size: 30px;
     color: #C32126;
