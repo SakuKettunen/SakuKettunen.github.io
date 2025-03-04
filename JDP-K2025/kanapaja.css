@@ -45,7 +45,8 @@ main {
 
 h1 {
     font-size: 60px;
-    color: #C32126; 
+    color: #C32126;
+    text-align: center; 
 }
 
 main img {
