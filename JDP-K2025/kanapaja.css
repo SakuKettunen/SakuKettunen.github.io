@@ -185,17 +185,22 @@ footer .social-media {
 
 footer .social-media li {
     display: inline-block;
-    margin: 0 30px;
+    margin: 0 15px;
 }
 
 footer .social-media a {
     color: #191009;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
 }
 
 footer .social-media a:hover {
     color: #C32126;
+}
+
+i {
+    font-size: 48px;
+    color: #191009;
 }
 
 @media (max-width: 768px) 
