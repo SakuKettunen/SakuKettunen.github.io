@@ -188,9 +188,9 @@ footer .social-media li {
     margin: 0 15px;
 }
 
-footer .social-media a {
+footer .social-media a img {
     color: #191009;
-    font-size: 10px;
+    font-size: 30px;
     text-decoration: none;
 }
 
