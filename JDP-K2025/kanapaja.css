@@ -188,10 +188,10 @@ footer .social-media li {
     margin: 0 15px;
 }
 
-footer .social-media a img {
+footer .social-media a {
     color: #191009;
     font-size: 30px;
-    text-decoration: none;
+    text-decoration: solid;
 }
 
 footer .social-media a:hover {
