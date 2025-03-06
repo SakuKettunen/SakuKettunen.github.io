@@ -178,6 +178,26 @@ footer {
     width: 100%;
 }
 
+footer .social-media {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer .social-media li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+footer .social-media a {
+    color: #191009;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+footer .social-media a:hover {
+    color: #C32126;
+}
+
 @media (max-width: 768px) 
     .category-content {
         flex-direction: column;
