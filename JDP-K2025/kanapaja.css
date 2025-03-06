@@ -199,7 +199,7 @@ footer .social-media a:hover {
 }
 
 @media (max-width: 768px) 
-    .category-content {
+        .category-content {
         flex-direction: column;
         text-align: center;
     }
