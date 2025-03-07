@@ -135,7 +135,6 @@ main img {
     padding: 5px; 
     margin: 20px;
     background-color: white; 
-    box-shadow:100px #191009;
 }
 
 .cta-button {
@@ -211,8 +210,15 @@ i {
     color: #191009;
 }
 
-@media (max-width: 768px) 
-        .category-content {
+@media (max-width: 768px) {
+    nav .menu {
+        display: none;
         flex-direction: column;
-        text-align: center;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #333;
+        width: 200px;
+        padding: 20px;
+    }
     }
