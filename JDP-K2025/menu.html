@@ -1,91 +1,98 @@
 <!DOCTYPE html>
 <html lang="fi">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kanapaja</title>
+    <title>Menu</title>
     <link rel="stylesheet" href="kanapaja.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
-
 <body>
-    <div class="grid-container">
-        <header>
-            <div class="logo">
-                <img src="../kuvat/logo.png" alt="Kanapaja Logo">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Etusivu</a></li>
-                    <li><a href="menu.html" class="current">Menu</a></li>
-                    <li><a href="yhteystiedot.html">Ota yhteyttä</a></li>
-                </ul>
-            </nav>
-        </header>
 
-        <div class="category">
-            <div class="category-content">
-                <div class="category-image">
-                    <img src="../kuvat/frittikanat.png" alt="Kuntonaksut">
-                </div>
-                <div class="category-list">
-                    <h2>Hyvinvointikanat</h2>
-                    <ul>
-                        <li>6pcs....................... 12,90</li>
-                        <li>8pcs....................... 16,90</li>
-                        <li>14pcs....................... 26,90</li>
-                        <li>20pcs....................... 36,90</li>
-                        <li>50pcs....................... 89,90</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="category">
-            <div class="category-content">
-                <div class="category-image">
-                    <img src="../kuvat/snaksit.png" alt="Kuntonaksut">
-                </div>
-                <div class="category-list">
-                    <h3>Kuntonaksut alle vitosella!</h3>
-                    <ul>
-                        <li>Terveysperunat....................... 4,90</li>
-                        <li>Lehtikaalisipsit....................... 4,90</li>
-                        <li>Porkkanakippo....................... 4,90</li>
-                        <li>Riisi....................... 4,90</li>
-                        <li>Linssisipsit....................... 4,90</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="category">
-            <div class="category-content">
-                <div class="category-image">
-                    <img src="../kuvat/juomat.png" alt="Juomat">
-                </div>
-                <div class="category-list">
-                    <h3>JUO, JUO & JUO!</h3>
-                    <ul>
-                        <li>Proteiinijuoma....................... 7,90</li>
-                        <li>Kevytlimu hanasta....................... 3,90</li>
-                        <li>Rasvaton maito....................... 3,90</li>
-                        <li>Kookosmaito....................... 5,90</li>
-                        <li>Kombucha....................... 5,90</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <footer>
-            <ul class="social-media">
-                <li><i><a href="https://www.facebook.com" target="_blank" class="fa-brands fa-facebook"></a></i></li>
-                <li><a href="https://tiktok.com" target="_blank" class="fa-brands fa-tiktok"></a></li>
-                <li><a href="https://www.instagram.com" target="_blank" class="fa-brands fa-instagram"></a></li>
-              </ul>  
-            <p>© 2025 Kanapaja. Kaikki oikeudet pidätetään.</p>
-        </footer>
+<header>
+    <div class="logo">
+        <img src="../kuvat/logo.png" alt="Kanapaja Logo">
     </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Etusivu</a></li>
+            <li><a href="menu.html" class="current">Menu</a></li>
+            <li><a href="yhteystiedot.html">Ota yhteyttä</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h1>Lounasmenu</h1>
+
+    <section class="category">
+        <h2>Hyvinvointikanat</h2>
+        <div class="category-content">
+            <div class="category-image">
+                <img src="kesarullat.jpg" alt="Kesärullat">
+            </div>
+            <div class="category-list">
+                <ul>
+                    <li>6 pcs - 11€</li>
+                    <li>9 pcs - 16€</li>
+                    <li>14 pcs - 24€</li>
+                    <li>20 pcs - 36€</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="category">
+        <h2>Snäkkiä vitosella!</h2>
+        <div class="category-content">
+            <div class="category-image">
+                <img src="pho.jpg" alt="Pho keitto">
+            </div>
+            <div class="category-list">
+                <ul>
+                    <li>Terveysperunat - 5€</li>
+                    <li>Riisi - 5€</li>
+                    <li>Porkkanakippo - 5€</li>
+                    <li>Lehtikaalisipsit - 5€</li>
+                    <li>Linssisipsit - 5€</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="category">
+        <h2>JUO, JUO & JUO!</h2>
+        <div class="category-content">
+            <div class="category-image">
+                <img src="superbowl.jpg" alt="Korealainen Super Bowl">
+            </div>
+            <div class="category-list">
+                <ul>
+                    <li>Hanajuoma - 4€</li>
+                    <li>Rasvaton maito - 4€</li>
+                    <li>Kookosmaito - 7€</li>
+                    <li>Kombucha - 7€</li>
+                    <li>Proteiinijuoma - 8€</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+        </div>
+    </section>
+
+    <div class="content-wrapper">
+        <a href="yhteystiedot.html" class="cta-button">Maista nyt!</a>
+    </div>
+</main>
+
+<footer>
+    <ul class="social-media">
+        <li><i><a href="https://www.facebook.com" target="_blank" class="fa-brands fa-facebook"></a></i></li>
+        <li><a href="https://tiktok.com" target="_blank" class="fa-brands fa-tiktok"></a></li>
+        <li><a href="https://www.instagram.com" target="_blank" class="fa-brands fa-instagram"></a></li>
+      </ul>  
+    <p>© 2025 Kanapaja. Kaikki oikeudet pidätetään.</p>
+</footer>
+
 </body>
 </html>
