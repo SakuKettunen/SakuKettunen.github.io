@@ -6,6 +6,11 @@ body {
     color: #191009; 
 }
 
+.container {
+    width: 100%;
+    padding: 5%;
+}
+
 header {
     background-color: #F4AC23;
     padding: 30px;
