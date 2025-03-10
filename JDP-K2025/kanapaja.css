@@ -45,54 +45,6 @@ nav ul li a:hover {
     border-radius: 5px;
     }
 
-.category {
-    margin: 20px 0;
-    padding: 10px;
-}
-.category-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.category-image {
-    flex: 1;
-    margin-right: 20px;
-}
-
-.category-image img {
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-.category-list {
-    flex: 10;
-    max-width: 500px;
-}
-
-.category-list h2, .category-list h3 {
-    font-size: 30px;
-    color: #191009;
-    margin-bottom: 10px;
-}
-
-.category-list ul {
-    list-style-type: none;
-    padding: 10px;
-}
-
-.category-list ul li {
-    align-content: center;
-    font-size: 18px;
-    padding: 10px;
-    margin: 60px;
-    border-radius: 22px;
-}
-
-.category-list ul li:hover {
-    color: white;
-}
 nav ul li a:hover {
     border-radius: 20px;
 }
